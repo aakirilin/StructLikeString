@@ -8,24 +8,24 @@ Example:
 var s1 = new CString10();
 var s2 = new CString10();
 
-s1.SetString("Hello, World!");
-s2.SetString("Привет мир!");
+s1.SetString("Hello");
+s2.SetString("Привет");
 
-Console.WriteLine(s1.ToString()); // Hello, Wor
-Console.WriteLine(s2.ToString()); // Привет мир
+Console.WriteLine(s1.ToString()); // Hello
+Console.WriteLine(s2.ToString()); // Привет
 
 s1 = s2;
 
-Console.WriteLine(s1.ToString()); // Привет мир
-Console.WriteLine(s2.ToString()); // Привет мир
+Console.WriteLine(s1.ToString()); // Привет
+Console.WriteLine(s2.ToString()); // Привет
 
 s1[0] = 'g';
 
-Console.WriteLine(s1.ToString()); // gривет мир
-Console.WriteLine(s2.ToString()); // Привет мир
+Console.WriteLine(s1.ToString()); // gривет
+Console.WriteLine(s2.ToString()); // Привет
 
 s2[0] = 'h';
 
-Console.WriteLine(s1.ToString()); // gривет мир
-Console.WriteLine(s2.ToString()); // hривет мир
+Console.WriteLine(s1.ToString()); // gривет
+Console.WriteLine(s2.ToString()); // hривет
 ```
