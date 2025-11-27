@@ -1,3 +1,5 @@
+namespace CString
+{
     public struct CString10
     {
         public char c0;
@@ -75,3 +77,4 @@
             return GetString();
         }
     }
+}
