@@ -11,21 +11,29 @@ var s2 = new CString10();
 s1.SetString("Hello");
 s2.SetString("Привет");
 
+
 Console.WriteLine(s1.ToString()); // Hello
 Console.WriteLine(s2.ToString()); // Привет
+Console.WriteLine("");
+
 
 s1 = s2;
 
 Console.WriteLine(s1.ToString()); // Привет
 Console.WriteLine(s2.ToString()); // Привет
+Console.WriteLine("");
 
-s1[0] = 'g';
+s1[0] = 'п';
 
-Console.WriteLine(s1.ToString()); // gривет
+Console.WriteLine(s1.ToString()); // привет
 Console.WriteLine(s2.ToString()); // Привет
+Console.WriteLine("");
 
-s2[0] = 'h';
+s2[0] = 'п';
 
-Console.WriteLine(s1.ToString()); // gривет
-Console.WriteLine(s2.ToString()); // hривет
+Console.WriteLine(s1.ToString()); // привет
+Console.WriteLine(s2.ToString()); // привет
+Console.WriteLine("");
+
+Console.ReadLine();
 ```
