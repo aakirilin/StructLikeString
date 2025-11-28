@@ -5,6 +5,8 @@ Everyone knows that a string in C# is not a significant type and is placed in a 
 
 Example:
 ```C#
+using CStringLib;
+
 var s1 = new CString10();
 var s2 = new CString10();
 
@@ -29,10 +31,10 @@ Console.WriteLine(s1.ToString()); // привет
 Console.WriteLine(s2.ToString()); // Привет
 Console.WriteLine("");
 
-s2[0] = 'п';
+s2[1] = 'Р';
 
 Console.WriteLine(s1.ToString()); // привет
-Console.WriteLine(s2.ToString()); // привет
+Console.WriteLine(s2.ToString()); // ПРивет
 Console.WriteLine("");
 
 Console.ReadLine();
