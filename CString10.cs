@@ -1,4 +1,4 @@
-namespace CString
+namespace CStringLib
 {
     public struct CString10
     {
